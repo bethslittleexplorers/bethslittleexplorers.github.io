@@ -18,6 +18,17 @@
     line-height: 1.4;
 }
 
+p{
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+.page-footer{
+  background-color:  #f9f9f9;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -101,6 +112,10 @@ textarea {
    /* font-family: 'Quicksand', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Raleway', sans-serif; */
+
+footer{
+  background-color: #fed578;
+}
 a{
   color: #000000!important;
   font-family: 'Open Sans Condensed', sans-serif !important;
@@ -128,9 +143,11 @@ a{
 
 .welcome-main{
   margin-top: 1rem;
+  background-image: url("../img/background.jpeg");
+  /* background-repeat: no-repeat; */
 }
 #welcome-text{
-  font-size: 1rem;
+  font-size: 0.5 rem;
   font-family: 'Open Sans Condensed', sans-serif !important;
   width: 100%
 }
@@ -144,8 +161,10 @@ a{
   /* border-radius: 15px 50px 30px 5px; */
   width: 100%;
 }
-.tile{
-  background-color: #fed578;
+
+
+.footer-heading{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
  /* ==========================================================================
    Helper classes
